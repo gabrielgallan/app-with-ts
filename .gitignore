@@ -1,4 +1,5 @@
-tmp/app.sql
+db/app.sql
+db/test.sql
 node_modules
 .env
 .env.test
