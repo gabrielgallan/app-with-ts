@@ -1,0 +1,19 @@
+Testes Unitários => Testar uma única função do sistema
+
+Testes de Integração => Comunicação entre duas ou mais unidades
+
+Testes E2E (ponta a ponta) => Simular um usuário operando na nossa aplicação:
+
+    - Front-End: Testes detalhados, abrir páginas, enviar requisições ou funções executadas pelo usuário
+    - Back-End: Chamadas HTTP, WebSockets e outras funções executadas pelo Front-End
+
+Pirâmide de Testes:
+    - E2E => (não dependem de nenhuma tecnologia, nem de arquitetura)
+     - Testes de Integração
+      - Testes Unitários
+
+Ferramenta Utilizada => Vitest
+    - npm i vitest -D
+    - npm i supertest -D
+    - Criar uma pasta /tests/example.test.ts
+    - Escrever os testes a serem realizados

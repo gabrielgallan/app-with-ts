@@ -1,0 +1,20 @@
+---Instalação de typescript e fastify---
+
+    npm init -y => Inicia o projeto
+    npm install fastify typescript => Instala as dependências do projeto
+    npx tsc -init => Cria o arquivo de configuração do typescript
+    npm install -D @types/node => Permite o node rodar o typescript 
+    npm install tsx -D => Converte o arquivo ts em js e executa no node automaticamente
+
+    ---Comandos---
+    node (arquivo.js) => Executa o arquivo .js
+    node --watch (arquivo.js) => Executa e a cada modificação reseta o servidor
+
+    npx tsc (arquivo.ts) => Converte o arquivo Typescript em Javascript
+    npx tsx (arquivo.ts) => Converte o arquivo e executa automaticamente
+    npx tsx watch (arquivo.ts) => Executa e a cada modificação reseta o servidor
+
+
+    ---Observações---
+    Usar o 'tsx' apenas no desenvolvimento
+    No projeto final converter para Javascript

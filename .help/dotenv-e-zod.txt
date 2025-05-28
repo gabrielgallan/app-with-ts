@@ -1,0 +1,11 @@
+---.ENV---
+    -Usado para declarar variáveis ambientes
+    -Criar um arquivo .env e declarar as variáveis
+    -Criar um arquivo index e chamar o zod para validar
+
+---ZOD---
+    -Usado para validar dados
+
+---Comandos---
+    npm i zod
+    npm i dotenv

@@ -1,0 +1,3 @@
+tmp/app.sql
+node_modules
+.env

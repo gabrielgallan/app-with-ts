@@ -1,0 +1,19 @@
+----Instalação e configuração do Knex----
+
+    npm install knex sqlite - Instala o knex e sqlite(banco para testes)
+    
+----Criar a pasta de db----
+    -Inserir as configurações do database
+    -Criar a past de migrations
+
+----Comandos----
+    Inserir o comando knex no script => "node --import tsx ./node_modules/.bin/knex"
+    npm run knex -- migrate:make <sua função> => criar nova tabela no banco
+    npm run knex -- migrate:latest => Ver últimas atualizações do banco
+
+----Configurar o arquivo de migrations----
+    Integrar o banco ao arquivo server trazendo { knex } do arquivo de configuração
+    --Comandos
+        knex('tabela').select('*') => Selecionar todas
+        knex('tabela').where('id', 10) => Filtro
+        knex('tabela').insert({data}) => Inserir ao banco
