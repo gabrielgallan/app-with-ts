@@ -1,14 +1,16 @@
-# Requisitos Funcionais (Funcionalidade que o usuário pode acessar)
+# Sobre o Projeto
+O projeto é uma API com persistência de dados, onde o usuário poderá simular transações bancárias. Foi desenvolvido com pacote Node.js e suas frameworks, segue abaixo as tecnologias usadas:
+- **TypeScript:** Usada na tipagem do JavaScript
+- **Fastify:** Usado para gerenciar as rotas da aplicação
+- **Knex:** Usado para criar as migrações para o banco de dados
+- **SQLite/Postgres:** SQLite foi o banco teste usado para desenvolvimento e Postgres para produção
+- **Zod:** Para validação de dados
+- **Viteste:** Para implementar os testes
 
-[x] O usuário deve poder criar uma conta;
-[x] O usuário deve poder realizar transações;
-[x] O usuário deve poder ter acesso a um resumo da sua conta;
-[x] O usuário deve poder listar todas as transações;
+## Requisitos Funcionais (Funcionalidade que o usuário pode acessar)
 
-# Regras de Negócios
+- [x] O usuário deve poder criar uma conta;
+- [x] O usuário deve poder realizar transações;
+- [x] O usuário deve poder ter acesso a um resumo da sua conta;
+- [x] O usuário deve poder listar todas as transações;
 
-[x] A transação pode ser do tipo crédito ou débito;
-[x] Deve ser possível indentificar o usuário pela requisição;
-[x] O usuário só pode visualizar transações as quais ele criou;
-
-# Requisitos Não Funcionais
